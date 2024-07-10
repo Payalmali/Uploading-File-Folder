@@ -1,0 +1,34 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>
+        FILE UPLOADER
+    </title>
+    <link rel="stylesheet" href="style (3).css">
+</head>
+<body>
+    <h1><u>Upload Files To My Google Drive</u></h1> <br>-
+<div id="grad1">       
+        <div class="details">
+            <form name="myform" onsubmit="return x()" required>
+                <span>UserName</span><br>
+                <input type="text" id="inp" class="inp" placeholder="Enter UserName" required = "required" name="user"/> <br>
+                <span>Email</span><br>
+                <input type="email" id="inp" class="inp" placeholder="Enter Email Address" name="mail"/> <br>
+                <span>Add comment</span><br>
+                <input type="text" id="inp" class="inp" placeholder="Enter any Comment related to File" rrequired = "required" name="Comment"> <br>
+                <span>Select File to Uplaod</span><br>
+                <input type="file" id="inp" required ="required" name="ffile" class="input">
+                <span>Select Folder to Uplaod</span> <br>
+                <input type="file" src="232803.png" id="fileInput" class="file-upload input" name="ffolder" multiple webkitdirectory>
+                <br><br>
+                <div class="btns">
+                <button id="one" onclick="x()">Submit</button>
+        </form>       
+                </div>
+        </div>
+</div>
+    <script src="fileuploading.js"></script>
+
+</body>
+</html>
